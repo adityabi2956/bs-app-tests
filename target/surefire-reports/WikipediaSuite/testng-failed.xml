@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WikipediaSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="WikipediaSearchiOSTest(failed)" verbose="0">
+    <classes>
+      <class name="com.browserstack.app.WikipediaSearchiOSTest">
+        <methods>
+          <include name="searchForBrowserStack"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.browserstack.app.WikipediaSearchiOSTest -->
+    </classes>
+  </test> <!-- WikipediaSearchiOSTest(failed) -->
+</suite> <!-- Failed suite [WikipediaSuite] -->

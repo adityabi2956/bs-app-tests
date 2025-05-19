@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-WikipediaSuite" class="navigator-link">
+              <span class="suite-name border-failed">WikipediaSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-WikipediaSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-WikipediaSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-WikipediaSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-WikipediaSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-WikipediaSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-WikipediaSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-WikipediaSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WikipediaSuite" class="hide-methods failed suite-WikipediaSuite"> (hide)</a> <!-- hide-methods failed suite-WikipediaSuite -->
+                      <a href="#" panel-name="suite-WikipediaSuite" class="show-methods failed suite-WikipediaSuite"> (show)</a> <!-- show-methods failed suite-WikipediaSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-WikipediaSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WikipediaSuite" title="com.browserstack.app.WikipediaSearchiOSTest" class="method navigator-link" hash-for-method="searchForBrowserStack">searchForBrowserStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WikipediaSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WikipediaSuite" class="hide-methods passed suite-WikipediaSuite"> (hide)</a> <!-- hide-methods passed suite-WikipediaSuite -->
+                      <a href="#" panel-name="suite-WikipediaSuite" class="show-methods passed suite-WikipediaSuite"> (show)</a> <!-- show-methods passed suite-WikipediaSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-WikipediaSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WikipediaSuite" title="com.browserstack.app.WikipediaSearchTest" class="method navigator-link" hash-for-method="searchForBrowserStack">searchForBrowserStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WikipediaSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WikipediaSuite" class="panel WikipediaSuite">
+          <div class="suite-WikipediaSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.browserstack.app.WikipediaSearchiOSTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForBrowserStack">
+                  </a> <!-- searchForBrowserStack -->
+                  <span class="method-name">searchForBrowserStack</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.4.1&apos;, java.version: &apos;21.0.7&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [384d189eb69640de42d6c55bda0c666cd06b51fe, findElement {using=accessibility id, value=Search Wikipedia}]
+Capabilities {appium:autoAcceptAlerts: true, appium:automationName: XCUITest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:browserstack.key: wkawewzdsyzzeyj1ckdz, appium:browserstack.user: adityabiswas_sdjd3r, appium:build: build-ios-1, appium:bundleID: com.browserstack.sample-ios, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iphone 14, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:name: wikipedia search test - ios, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:orientation: PORTRAIT, appium:os_version: 16, appium:project: wikipedia ios test, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008110-000C61420111401E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, bstack:options: {accessKey: WkawewzDsyzzeyJ1CkDZ, userName: adityabiswas_SDJd3R}, platformName: IOS}
+Session ID: 384d189eb69640de42d6c55bda0c666cd06b51fe
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.browserstack.app.WikipediaSearchiOSTest.searchForBrowserStack(WikipediaSearchiOSTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WikipediaSuite-class-failed -->
+          <div class="suite-WikipediaSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.browserstack.app.WikipediaSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForBrowserStack">
+                  </a> <!-- searchForBrowserStack -->
+                  <span class="method-name">searchForBrowserStack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WikipediaSuite-class-passed -->
+        </div> <!-- panel WikipediaSuite -->
+        <div panel-name="test-xml-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/adityabiswas/Documents/browserstack-app-tests/bs-app-tests/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;WikipediaSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WikipediaAndroidTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.app.WikipediaSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WikipediaAndroidTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WikipediaSearchiOSTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.browserstack.app.WikipediaSearchiOSTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WikipediaSearchiOSTest --&gt;
+&lt;/suite&gt; &lt;!-- WikipediaSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WikipediaAndroidTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WikipediaSearchiOSTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WikipediaSuite');
+function tableData_WikipediaSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchForBrowserStack')
+data.setCell(0, 2, 'com.browserstack.app.WikipediaSearchTest')
+data.setCell(0, 3, 8011);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchForBrowserStack')
+data.setCell(1, 2, 'com.browserstack.app.WikipediaSearchiOSTest')
+data.setCell(1, 3, 5226);
+window.suiteTableData['WikipediaSuite']= { tableData: data, tableDiv: 'times-div-WikipediaSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-WikipediaSuite">
+              </div> <!-- times-div-WikipediaSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WikipediaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WikipediaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.app.WikipediaSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchForBrowserStack</span>
+                <span class="method-start">13474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21490 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.browserstack.app.WikipediaSearchiOSTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22920 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchForBrowserStack</span>
+                <span class="method-start">48557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53789 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

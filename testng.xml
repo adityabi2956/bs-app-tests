@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WikipediaSuite" parallel="false">
+
+    <!-- Android Test -->
+    <test name="WikipediaAndroidTest">
+        <classes>
+            <class name="com.browserstack.app.WikipediaSearchTest"/>
+        </classes>
+    </test>
+
+<!-- iOS Test -->
+    <test name="WikipediaSearchiOSTest">
+        <classes>
+            <class name="com.browserstack.app.WikipediaSearchiOSTest"/>
+        </classes>
+    </test>
+
+</suite>
